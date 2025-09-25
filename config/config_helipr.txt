@@ -1,0 +1,35 @@
+[DEFAULT]
+model_name = ImLPR_training
+dataset_folder = ../data/
+load_weights =../weights/ImLPR_default.pth
+
+[TRAIN]
+num_workers = 16
+batch_size = 2048
+batch_split_size = 64
+val_batch_size = 1
+
+lr = 5e-5
+epochs = 100
+
+loss = TruncatedSmoothAP
+tau1 = 0.01
+positives_per_query = 4
+
+num_positive_pairs = 216
+num_pos = 192
+num_hn_samples = 64
+temperature = 0.20
+vdist = 3
+hdist = 20
+circular_horizontal = True
+
+image_H = 1022
+image_W = 126
+uFoV = 11.5
+dFoV = -10.1
+sensor_range = 200
+
+similarity = euclidean
+
+train_file = training_helipr.pickle

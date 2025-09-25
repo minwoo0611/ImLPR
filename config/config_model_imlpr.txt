@@ -1,0 +1,10 @@
+[BACKBONE]
+model_name = dinov2_vits14
+num_trainable_blocks = 2
+adapter_frequency = 3
+
+[AGGREGATOR]
+num_channels = 384
+num_clusters=64
+cluster_dim=128
+token_dim=256
