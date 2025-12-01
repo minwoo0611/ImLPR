@@ -95,7 +95,7 @@ timestamp x y z qx qy qz qw
 
 Each `.npy` is an `H × W × 3` RIV image. The three channels are **reflectivity (intensity)**, **range**, and **normal ratio**, each scaled to `[0, 255]` as described in the paper.
 
-You can download the training/test sets and the corresponding pickle files from this **[Google Drive folder](https://drive.google.com/drive/folders/1dE-4qhZdMDHCq4wtR58htGfjVeUcxsqe?usp=sharing)** and then jump to the [Training](#training) section.
+You can download the training/test sets and the corresponding pickle files from this **[Google Drive folder](https://drive.google.com/drive/folders/1kJ24x9m1a4ArYyneDTRIlqU9_ED-ZHXH?usp=sharing)** and then jump to the [Training](#training) section.
 
 We provide:
 
