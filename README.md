@@ -183,7 +183,7 @@ Place pretrained weights (if provided) under:
 ```
 weights/ImLPR_default.pth
 ```
-Training and Evaluation will automatically load them (unless you change the loading logic in `training/trainer.py`). This checkpoint can be downloaded from the **[Google Drive folder](https://drive.google.com/drive/folders/1dE-4qhZdMDHCq4wtR58htGfjVeUcxsqe?usp=sharing)**.
+Training and Evaluation will automatically load them (unless you change the loading logic in `training/trainer.py`). This checkpoint can be downloaded from the **[Google Drive folder](https://drive.google.com/file/d/1GQ6acDDXuKtLAEIY8kwoNvEwAcKK0xv8/view?usp=drive_link)**.
 
 ---
 
